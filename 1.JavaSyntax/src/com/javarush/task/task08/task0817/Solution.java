@@ -61,7 +61,13 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        removeTheFirstNameDuplicates(createMap());
+        Map<String, String> map = new HashMap<>(createMap());
+        removeTheFirstNameDuplicates(map);
+        for (Map.Entry<String, String> entry : map.entrySet()
+             ) {
+            System.out.println(entry);
+        }
+        
 
 
     }
