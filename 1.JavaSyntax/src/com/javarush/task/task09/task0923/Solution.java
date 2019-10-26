@@ -67,15 +67,15 @@ public class Solution {
     }
 
     public static char[] toArray(String s) {
-        char[] array = s.toCharArray();
-        return array;
+        return s.toCharArray();
+
     }
 
     public static void printLists(ArrayList<Character> list) {
         for (Character c : list
-             ) {
+        ) {
             System.out.print(c + " ");
         }
-        System.out.println("");
+        System.out.println();
     }
 }
