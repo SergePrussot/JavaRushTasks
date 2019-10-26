@@ -2,7 +2,6 @@ package com.javarush.task.task08.task0830;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Collections;
 
 /* 
 Задача по алгоритмам
@@ -26,7 +25,7 @@ public class Solution {
     public static void sort(String[] array) {
         for (int i = array.length - 1; i > 0; i--) {
             for (int j = 0; j < i; j++) {
-                if(isGreaterThan(array[j], array[j +1])) {
+                if (isGreaterThan(array[j], array[j + 1])) {
                     String temp = array[j];
                     array[j] = array[j + 1];
                     array[j + 1] = temp;
@@ -34,7 +33,6 @@ public class Solution {
                 }
             }
         }
-
     }
 
     //Метод для сравнения строк: 'а' больше чем 'b'
