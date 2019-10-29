@@ -11,7 +11,7 @@ public class Solution {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
 
-        InputStream fileInputStream = null;
+        InputStream fileInputStream;
         try {
             String sourceFileName = reader.readLine();
             fileInputStream = getInputStream(sourceFileName);

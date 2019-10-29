@@ -33,7 +33,7 @@ public class Solution {
 
     public static Set<Cat> convertMapToSet(Map<String, Cat> map) {
         Set<Cat> set = new HashSet<>();
-        for (Map.Entry pair : map.entrySet()
+        for (Map.Entry<String, Cat> pair : map.entrySet()
              ) {
             set.add((Cat) pair.getValue());
         }
