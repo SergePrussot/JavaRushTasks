@@ -14,7 +14,7 @@ public class Solution {
             for (int j = i; j < array.length; j++) {
                 System.out.print(array[j]);
             }
-            System.out.println("");
+            System.out.println();
         }
 
     }
