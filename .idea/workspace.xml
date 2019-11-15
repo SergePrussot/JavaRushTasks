@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="Nov.10,19">
-      <change afterPath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task14/task1409/Bridge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task14/task1409/SuspensionBridge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task14/task1409/WaterBridge.java" afterDir="false" />
+    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="Nov.13,19">
+      <change afterPath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task14/task1415/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task14/task1415/Условие.jrtc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" afterDir="false" />
     </list>
@@ -278,12 +278,12 @@
       </method>
     </configuration>
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task14.task1405.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task14.task1411.Solution" />
       <module name="2.JavaCore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task14.task1405.*" />
+          <option name="PATTERN" value="com.javarush.task.task14.task1411.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -292,12 +292,12 @@
       </method>
     </configuration>
     <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task14.task1406.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task14.task1412.Solution" />
       <module name="2.JavaCore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task14.task1406.*" />
+          <option name="PATTERN" value="com.javarush.task.task14.task1412.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -306,12 +306,12 @@
       </method>
     </configuration>
     <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task14.task1407.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task14.task1413.Solution" />
       <module name="2.JavaCore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task14.task1407.*" />
+          <option name="PATTERN" value="com.javarush.task.task14.task1413.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,12 +320,12 @@
       </method>
     </configuration>
     <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task14.task1408.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task14.task1414.Solution" />
       <module name="2.JavaCore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task14.task1408.*" />
+          <option name="PATTERN" value="com.javarush.task.task14.task1414.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -334,12 +334,12 @@
       </method>
     </configuration>
     <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task14.task1409.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task14.task1415.Solution" />
       <module name="2.JavaCore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task14.task1409.*" />
+          <option name="PATTERN" value="com.javarush.task.task14.task1415.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -455,48 +455,6 @@
       <workItem from="1485161981498" duration="29000" />
       <workItem from="1485162014696" duration="83000" />
       <workItem from="1485177835943" duration="100000" />
-    </task>
-    <task id="LOCAL-00106" summary="Nov.2,19">
-      <created>1572752989886</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1572752989887</updated>
-    </task>
-    <task id="LOCAL-00107" summary="Nov.2,19">
-      <created>1572753093603</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1572753093603</updated>
-    </task>
-    <task id="LOCAL-00108" summary="Nov.2,19">
-      <created>1572753263761</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1572753263761</updated>
-    </task>
-    <task id="LOCAL-00109" summary="Nov.2,19">
-      <created>1572753479396</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1572753479396</updated>
-    </task>
-    <task id="LOCAL-00110" summary="Nov.2,19">
-      <created>1572754192408</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1572754192408</updated>
-    </task>
-    <task id="LOCAL-00111" summary="Nov.3,19">
-      <created>1572754413169</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1572754413169</updated>
     </task>
     <task id="LOCAL-00112" summary="Nov.3,19">
       <created>1572754585684</created>
@@ -799,7 +757,49 @@
       <option name="project" value="LOCAL" />
       <updated>1573582711824</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="Nov.13,19">
+      <created>1573672524425</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1573672524426</updated>
+    </task>
+    <task id="LOCAL-00156" summary="Nov.13,19">
+      <created>1573718365447</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1573718365447</updated>
+    </task>
+    <task id="LOCAL-00157" summary="Nov.13,19">
+      <created>1573849885965</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1573849885965</updated>
+    </task>
+    <task id="LOCAL-00158" summary="Nov.15,19">
+      <created>1573850250560</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1573850250560</updated>
+    </task>
+    <task id="LOCAL-00159" summary="Nov.13,19">
+      <created>1573850920292</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1573850920294</updated>
+    </task>
+    <task id="LOCAL-00160" summary="Nov.15,19">
+      <created>1573852131733</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1573852131733</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -851,7 +851,9 @@
     <MESSAGE value="Nov.9,19" />
     <MESSAGE value="Nov.10,19" />
     <MESSAGE value="Nov.12,19" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nov.12,19" />
+    <MESSAGE value="Nov.13,19" />
+    <MESSAGE value="Nov.15,19" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nov.15,19" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
