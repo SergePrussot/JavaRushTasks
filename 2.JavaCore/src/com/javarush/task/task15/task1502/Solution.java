@@ -26,7 +26,7 @@ public class Solution {
 
     public static class Goose extends SmallAnimal {
         @Override
-       public String getSize() {
+        public String getSize() {
             return "Гусь маленький, " + super.getSize();
         }
     }
