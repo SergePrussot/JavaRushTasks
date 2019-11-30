@@ -31,6 +31,7 @@ public class Solution {
                 while (true) {
                     Thread.sleep(1000);
                     seconds++;
+
                 }
             } catch (InterruptedException e) {
                 System.out.println(seconds);
